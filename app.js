@@ -296,7 +296,7 @@ app.post("/username/:user/password/:pass/save",function(req,res){
                     return console.log(err)//
                 }
                 else{
-                  return res.redirect("http://localhost:2000/");//change this to normal
+                  return res.redirect("https://dtu-attendance.herokuapp.com/");//change this to normal
                 }
             });
     }

@@ -107,11 +107,87 @@ function absent(e) {
 //     console.log(attendance);
 //     html2pdf().from(attendance).save();
 //   })
-function convert() {
+// function convert() {
   
-  //-html2pdf().from(attendance).save();
-  var element = document.getElementById('AttendanceMeetData');
-  console.log(element);
-  html2pdf(element);
+//   //-html2pdf().from(attendance).save();
+//   var element = document.getElementById('AttendanceMeetData');
+//   var opt = {
+//     margin:       1,
+//     filename:     'myfile.pdf',
+//     image:        { type: 'jpeg', quality: 0.98 },
+//     html2canvas:  { scale: 2 },
+//     jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+//   };
+//   html2pdf(element, opt);
 
+// }
+
+// function convert() {
+
+//   // var dis = document.getElementById('sidebar');
+//   // if(dis.style.display === "none")
+//   // {
+//   //   dis.style.display= "block";
+//   //   console.log(dis.style.display);
+//   // }
+//   // printPdf();
+
+//   function printPdf(){
+//     var element = document.getElementById('AttendanceMeetData');
+//   // var element1 = document.getElementById('AttendanceMeetData1');
+//   // var element = document.getElementsByClassName('attendance');
+//   var linkUrl = document.getElementById('link-url');
+//   var link = linkUrl.innerHTML.split(".com/").pop();
+
+//   var opt = {
+//     margin:       0,
+//     filename:     `${link}`,
+//     image:        { type: 'jpeg', quality: 0.98 },
+//     html2canvas:  { scale: 2 },
+//     jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+//   };
+//   // console.log(`${x}`);
+//   html2pdf(element, opt);
+//   }
+//   // var dis = document.getElementById('sidebar');
+//   // var sidebar = document.getElementById('sidebar');
+//   //-html2pdf().from(attendance).save();
+//   // displayDiv();
+ 
+//   // function displayDiv() {
+//   //   var dis = document.getElementById('sidebar');
+//   //   if(dis.style.display === "none")
+//   //   {
+//   //     dis.style.display= "block";
+//   //     console.log(dis.style.display);
+//   //   }
+//   // }
+//   // dis.style.display= "none"
+//   // dis.style.display= "none";
+// }
+
+
+function convert(){
+  var element1 = document.getElementById('meetDetails')
+  var element2 = document.getElementById('tab')
+// var element1 = document.getElementById('AttendanceMeetData1');
+// var element = document.getElementsByClassName('attendance');
+var linkUrl = document.getElementById('link-url');
+var linkdate = document.getElementById('link-date');
+var linktaker = document.getElementById('link-taker');
+var taker = linktaker.innerHTML;
+var date = linkdate.innerHTML;
+var link = linkUrl.innerHTML.split(".com/").pop();
+
+var opt = {
+  margin:       0.5,
+  filename:     `${taker}_${link}_${date}`,
+  image:        { type: 'jpeg', quality: 0.98 },
+  html2canvas:  { scale: 2 },
+  jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+};
+// console.log(`${x}`);
+html2pdf().from(element1).set(opt).toPdf().get('pdf').then(function (pdf) {
+  pdf.addPage();
+}).from(element2).toContainer().toCanvas().toPdf().save();
 }

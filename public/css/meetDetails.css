@@ -160,6 +160,34 @@ h1 {
 }
 
 
+/* -----------printing----------- */
+.sidebar.print{
+    display: none;
+}
+
+.container.print{
+    width: 1000%;
+    /* min-width: fit-content; */
+    margin-top: 2%;
+}
+
+.wrapper.print {
+    width: 80%;
+    margin: auto;
+    /* margin-top: 10% ; */
+    /* margin-left: 45%; */
+    min-width: fit-content;
+    text-align: center;
+    /* margin-top: 1%; */
+}
+.details.print{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+/* -----------------media queries----------------- */
+
 @media only screen and (max-width: 992px){
     .sidebar{
         display: none;

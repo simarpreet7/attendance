@@ -15,12 +15,15 @@
    console.log(y,typeof(y))
  console.log(z,typeof(z))
  function edit(e){
-  var datestring = moment(y[e.id].attendance_date).format('YYYY-MM-DD');
+   var datestring = moment(y[e.id].attendance_date).format('YYYY-MM-DD');
+   var timestring = moment(y[e.id].attendance_date).format('hh:mm');
    document.getElementById('sno_link').value= Number(e.id)+ Number(1);
    document.getElementById('meet_url').value=y[e.id].url; 
    document.getElementById('participants').value=y[e.id].data.length; 
    document.getElementById('atten_id').value=y[e.id]._id;
    document.getElementById('meet_date').value=datestring;
+   document.getElementById('meet_time').value= timestring;
+   document.getElementById('meet_creator').value=y[e.id].taker;
    console.log(e);
    
  }
@@ -268,12 +271,12 @@ if(x)
           </div>
           <br>
           <div>
-          <input type="time" name= "entered_time" class="form-control element" required>
+          <input type="time" name= "entered_time" class="form-control element" required id="meet_time">
             <div class="invalid-feedback">This Field can't be empty</div>
           </div>
           <br>
           <div>
-          <input type="text" name= "entered_taker" placeholder="Creator" class="form-control element" required>
+          <input type="text" name= "entered_taker" placeholder="Creator" class="form-control element" required id="meet_creator">
             <div class="invalid-feedback">This Field can't be empty</div>
           </div>
           <br>

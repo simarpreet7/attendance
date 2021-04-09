@@ -15,14 +15,19 @@ npm start
   Shashank Negi 
 
 ## Demo
-### V1
-https://drive.google.com/file/d/1f_B_UK7-IEG708mKth2VOnQbfJyJOcMd/view?usp=sharing
-### V2
-https://drive.google.com/file/d/125nP7_wkCjHJV0VcZ5bKfsx9xLfCtbEl/view
+ ### V1
+ https://drive.google.com/file/d/1f_B_UK7-IEG708mKth2VOnQbfJyJOcMd/view?usp=sharing
+ ### V2
+ https://drive.google.com/file/d/125nP7_wkCjHJV0VcZ5bKfsx9xLfCtbEl/view
 
 ## ppt 
 https://drive.google.com/file/d/1KCUtu554PYfQZ-Eqv5at9_VFOdpsQ5g9/view?usp=sharing
 
+## figma UI
+https://www.figma.com/file/7sg68J7mXtWhFUDONiYNtW/MeetAttendance?node-id=0%3A1
+
+## figma Prototype
+https://drive.google.com/file/d/1BXJv6EIwyRMel-mXdJ89Hm-W6I6V5iWB/view?usp=sharing
 
 ## Running
 https://dtu-attendance.herokuapp.com/

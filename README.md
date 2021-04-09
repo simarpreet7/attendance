@@ -21,7 +21,7 @@ https://drive.google.com/file/d/1f_B_UK7-IEG708mKth2VOnQbfJyJOcMd/view?usp=shari
 https://drive.google.com/file/d/125nP7_wkCjHJV0VcZ5bKfsx9xLfCtbEl/view
 
 ## ppt 
-https://docs.google.com/presentation/d/1jGT19XDpnPd8zlUAjNU7VlCYhlsFTbG_O17SOKUf5c8/edit?usp=drivesdk
+https://drive.google.com/file/d/1KCUtu554PYfQZ-Eqv5at9_VFOdpsQ5g9/view?usp=sharing
 
 
 ## Running

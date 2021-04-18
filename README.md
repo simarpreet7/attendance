@@ -21,7 +21,7 @@ npm start
  https://drive.google.com/file/d/125nP7_wkCjHJV0VcZ5bKfsx9xLfCtbEl/view
 
 ## ppt 
-https://drive.google.com/file/d/1KCUtu554PYfQZ-Eqv5at9_VFOdpsQ5g9/view?usp=sharing
+https://drive.google.com/file/d/1tRMGOHFa3q0H1Ffb_t5nt0uDAmTb3C0a/view?usp=sharing
 
 ## figma UI
 https://www.figma.com/file/7sg68J7mXtWhFUDONiYNtW/MeetAttendance?node-id=0%3A1

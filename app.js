@@ -15,8 +15,8 @@ var _= require("lodash");
 const moment = require("moment");
 const attendance = require("./models/attendance");
   
-const PORT=2000;
-const MONGO_URL="mongodb://localhost/attendance";
+const PORT=process.env.PORT||2000;
+const MONGO_URL=process.env.MONGODB_URI||"mongodb://localhost/attendance";
 var app = express();
 
 mongoose.connect(MONGO_URL, {
@@ -296,7 +296,7 @@ app.post("/username/:user/password/:pass/save",function(req,res){
                     return console.log(err)//
                 }
                 else{
-                  return res.redirect("http://localhost:2000/");//change this to normal
+                  return res.redirect("https://dtu-attendance.herokuapp.com/");//change this to normal
                 }
             });
     }

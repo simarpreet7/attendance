@@ -94,7 +94,7 @@ function openPopup(popup) {
   function copyMeet() {
     let username=document.getElementById('user_name_meet').value;
     let password=document.getElementById('pass_word_meet').value;
-    copyCode(`let c="";let dateMeet="";dateMeet+=new Date().toLocaleString("en-US");document.getElementsByClassName('uArJ5e UQuaGc kCyAyd QU4Gid foXzLb IeuGXd')[0].click();
+    copyCode(`let c="";let dateMeet="";dateMeet+=new Date().toLocaleString("en-US");document.getElementsByClassName('VfPpkd-Bz112c-LgbsSe yHy1rc eT1oJ JsuyRc boDUxc')[0].click();
     let taker=document.getElementsByClassName('GvcuGe')[0].childNodes[0].innerText;
     taker=taker.substring(0, taker.length-6);
     let you = document.getElementsByClassName('GvcuGe')[0].childNodes[1].innerText;

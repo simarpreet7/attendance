@@ -203,9 +203,10 @@ function openPopup(popup) {
        }
     }
    function copyTeam() {
+       //https://greasyfork.org/en/scripts/421865-google-meet-spam-bot/code
       let username=document.getElementById('user_name_team').value;
       let password=document.getElementById('pass_word_team').value;
-      copyCode(`let c="";let dateMeet="";dateMeet+=new Date().toLocaleString("en-US");document.getElementsByClassName('google-material-icons VfPpkd-kBDsod Mwv9k')[1].click();
+      copyCode(`let c="";let dateMeet="";dateMeet+=new Date().toLocaleString("en-US");document.getElementsByClassName('VfPpkd-Bz112c-LgbsSe yHy1rc eT1oJ JsuyRc boDUxc')[1].click();
       let taker=document.getElementsByClassName('GvcuGe')[0].childNodes[0].innerText;
       taker=taker.substring(0, taker.length-6);
       let you = document.getElementsByClassName('GvcuGe')[0].childNodes[1].innerText;
